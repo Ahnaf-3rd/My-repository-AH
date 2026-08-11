@@ -1,4 +1,4 @@
-Allah is the Greatest <br> Death to the America <br> Death to Israel <br> Curse upon the Jews <br> Victory to Islam
+**Allah is the Greatest <br> Death to the America <br> Death to Israel <br> Curse upon the Jews <br> Victory to Islam
 <br> Free Palestine <br> Long live the Islamic Republic of Iran <br> Long live Hamas <br> Jews belong inside gas chambers
-<br> Heil Hitler <br> Long live the 3rd Reich
+<br> Heil Hitler <br> Long live the 3rd Reich**
 <br> This repo contains the datasets and the python codes used to train three ML models to test their accuracy and ability to predict the colors of non-theropod dinosaurs based on the melanosomes of the modern birds. For this test the Penguins were dropped since their melanosomes are different. The CSV named modern_bird_training.csv is used for the purpose. <br> The non-theropods include two Diplodocus specimen and two Psittacosaurus specimen. Two validate the models, 8 extinct theropods have also been used. The models trained are Random Forest, SVM and QDA. Two recreate the results, download improvedresearchpaperresult.ipynb and the datasets.
