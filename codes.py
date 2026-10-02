@@ -15,7 +15,7 @@ from sklearn.svm import SVC
 # ============================================================
 
 # Load the single modern bird melanosome dataset (already in nm)
-train = pd.read_csv("/content/modern_bird_melanosomes_deduplicated.csv")
+train = pd.read_csv("modern_bird_melanosomes_with_source.csv")
 
 # Keep only the columns we need and standardize spelling
 train = train[["colour", "length_nm", "width_nm", "aspect_ratio"]].copy()
@@ -31,11 +31,11 @@ print("Class distribution:\n", train["color"].value_counts())
 # ============================================================
 # 2. Load Validation (Theropods) & Test Sets (Non-Theropods)
 # ============================================================
-val = pd.read_csv("/content/theropod_validation.csv")
+val = pd.read_csv("theropod_validation.csv")
 val.rename(columns={"known_colour": "known_color"}, inplace=True)
 val["known_color"] = val["known_color"].str.lower().replace("grey", "gray")
 
-test = pd.read_csv("/content/non_theropod_test.csv")
+test = pd.read_csv("non_theropod_test.csv")
 
 # ============================================================
 # 3. Preprocessing & Feature Selection
